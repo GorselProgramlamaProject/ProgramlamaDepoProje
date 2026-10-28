@@ -46,14 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adafsfadsfasdfasd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adafsfadsfasdfasd.Designer.cs">
+      <DependentUpon>adafsfadsfasdfasd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAnasayfa.Designer.cs">
+      <DependentUpon>AdminAnasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalisanAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanAnasayfa.Designer.cs">
+      <DependentUpon>CalisanAnasayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GirisEkranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisEkranı.Designer.cs">
+      <DependentUpon>GirisEkranı.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YöneticiAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YöneticiAnasayfa.Designer.cs">
+      <DependentUpon>YöneticiAnasayfa.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
