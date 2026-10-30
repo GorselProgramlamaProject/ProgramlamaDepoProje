@@ -17,16 +17,20 @@ namespace ProgramlamaDepoProje
 
             InitializeComponent();
         atstart.atstartwith(this);//ats
+                    // panel1 screene gore ekranin hem vertical hem horizontal ortasinda olsun
+                   
+            
 
 
         }
-
+        
 
 
 
         private void GirisEkranı_Load(object sender, EventArgs e)
         {
-
+        
+            atstart.ortalaPanel(panel1, this.ClientSize.Width, this.ClientSize.Height);
         }
     }
 }
