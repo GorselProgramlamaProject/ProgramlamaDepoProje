@@ -58,6 +58,7 @@
     <Compile Include="AdminAnasayfa.Designer.cs">
       <DependentUpon>AdminAnasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="atstart.cs" />
     <Compile Include="CalisanAnasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,12 @@
     <Compile Include="YöneticiAnasayfa.Designer.cs">
       <DependentUpon>YöneticiAnasayfa.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CalisanAnasayfa.resx">
+      <DependentUpon>CalisanAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
