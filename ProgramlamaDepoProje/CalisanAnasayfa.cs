@@ -15,6 +15,12 @@ namespace ProgramlamaDepoProje
         public CalisanAnasayfa()
         {
             InitializeComponent();
+         
+        }
+
+        private void CalisanAnasayfa_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
