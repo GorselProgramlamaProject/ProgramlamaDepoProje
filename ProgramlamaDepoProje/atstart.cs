@@ -34,7 +34,7 @@ namespace ProgramlamaDepoProje
             form.Location = new Point(0, 0);
             form.WindowState = FormWindowState.Maximized;
         }
-        public static void ortalaPanel(Panel panel1, int x, int y) //kullanim sekli atstart.ortalaPanel(panel1, this.ClientSize.Width, this.ClientSize.Height);
+        public static void ortalaPanel(Panel panel1, int x, int y) //kullanim sekli atstart.ortalaPanel(panel1, this.ClientSize.Width, this.ClientSize.Height);..
         {
             panel1.Location = new Point(
               (x - panel1.Width) / 2,
