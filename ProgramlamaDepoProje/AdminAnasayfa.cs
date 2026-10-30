@@ -16,5 +16,10 @@ namespace ProgramlamaDepoProje
         {
             InitializeComponent();
         }
+
+        private void AdminAnasayfa_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

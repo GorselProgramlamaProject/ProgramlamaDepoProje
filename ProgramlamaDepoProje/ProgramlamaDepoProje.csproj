@@ -85,6 +85,9 @@
     <Compile Include="YöneticiAnasayfa.Designer.cs">
       <DependentUpon>YöneticiAnasayfa.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminAnasayfa.resx">
+      <DependentUpon>AdminAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CalisanAnasayfa.resx">
       <DependentUpon>CalisanAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +106,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="YöneticiAnasayfa.resx">
+      <DependentUpon>YöneticiAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

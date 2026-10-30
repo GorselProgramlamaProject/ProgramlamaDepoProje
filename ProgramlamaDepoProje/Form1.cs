@@ -29,5 +29,12 @@ namespace ProgramlamaDepoProje
             GirisEkranı girisEkranı = new GirisEkranı();
             girisEkranı.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CalisanAnasayfa calisanAnasayfa = new CalisanAnasayfa();
+            calisanAnasayfa.Show();
+        }
     }
 }
