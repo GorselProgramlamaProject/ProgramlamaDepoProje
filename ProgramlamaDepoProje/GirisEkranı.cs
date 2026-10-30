@@ -16,5 +16,10 @@ namespace ProgramlamaDepoProje
         {
             InitializeComponent();
         }
+
+        private void GirisEkranı_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
