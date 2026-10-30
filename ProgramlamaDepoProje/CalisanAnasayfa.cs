@@ -21,7 +21,7 @@ namespace ProgramlamaDepoProje
 
         private void CalisanAnasayfa_Load(object sender, EventArgs e)
         {
-
+            atstart.ortalaPanel(panel3, this.ClientSize.Width, this.ClientSize.Height);
         }
 
         private void button4_Click(object sender, EventArgs e)
