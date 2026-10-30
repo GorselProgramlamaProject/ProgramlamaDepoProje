@@ -14,7 +14,19 @@ namespace ProgramlamaDepoProje
     {
         public GirisEkranı()
         {
+
             InitializeComponent();
+        atstart.atstartwith(this);//ats
+
+
+        }
+
+
+
+
+        private void GirisEkranı_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void GirisEkranı_Load(object sender, EventArgs e)
