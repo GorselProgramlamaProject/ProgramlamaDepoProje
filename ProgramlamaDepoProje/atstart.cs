@@ -18,8 +18,15 @@ namespace ProgramlamaDepoProje
 {
     public static class atstart
     {
-        public static void atstartwith(Form form)
+    public static void atstartwith(Form form)
         {
+
+
+            form.KeyPreview = true;
+            form.KeyDown += (s, e) =>
+            {
+                if (e.KeyCode == Keys.Escape) form.Close();
+            };
             // Formun kenarlıklarını ve kontrol kutularını kaldır
             form.FormBorderStyle = FormBorderStyle.None;
             form.ControlBox = false;
