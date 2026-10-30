@@ -16,7 +16,7 @@ namespace ProgramlamaDepoProje
         {
 
             InitializeComponent();
-        atstart.atstartwith(this);
+        atstart.atstartwith(this);//ats
 
 
         }
