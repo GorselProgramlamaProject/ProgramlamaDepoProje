@@ -15,11 +15,19 @@ namespace ProgramlamaDepoProje
         public Form1()
         {
             InitializeComponent();
+            atstart.atstartwith(this);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GirisEkranı girisEkranı = new GirisEkranı();
+            girisEkranı.Show();
         }
     }
 }
